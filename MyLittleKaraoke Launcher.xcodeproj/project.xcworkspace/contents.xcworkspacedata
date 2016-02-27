@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyLittkeKaraoke Launcher.xcodeproj">
+      location = "self:MyLittleKaraoke Launcher.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,31 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510297BA1931D1300041AD92 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510297B91931D1300041AD92 /* MainWindowController.m */; };
+		510297BC1931D40F0041AD92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510297BB1931D40F0041AD92 /* MainWindow.xib */; };
+		510297BF1931D5880041AD92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 510297BE1931D5880041AD92 /* AppDelegate.m */; };
+		78541F4D193213B9002279F1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78541F4C193213B9002279F1 /* logo.png */; };
+		78541F4F19321E2F002279F1 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 78541F4E19321E2F002279F1 /* AppIcon.icns */; };
 		78A509DD1930AD3E00E605FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A509DC1930AD3E00E605FD /* Cocoa.framework */; };
 		78A509DF1930AD3E00E605FD /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A509DE1930AD3E00E605FD /* AppleScriptObjC.framework */; };
 		78A509E91930AD3E00E605FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A509E71930AD3E00E605FD /* InfoPlist.strings */; };
 		78A509EB1930AD3E00E605FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A509EA1930AD3E00E605FD /* main.m */; };
-		78A509EF1930AD3E00E605FD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 78A509ED1930AD3E00E605FD /* Credits.rtf */; };
-		78A509F11930AD3E00E605FD /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 78A509F01930AD3E00E605FD /* AppDelegate.applescript */; };
 		78A509F41930AD3E00E605FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A509F21930AD3E00E605FD /* MainMenu.xib */; };
-		78A509F61930AD3E00E605FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A509F51930AD3E00E605FD /* Images.xcassets */; };
+		78A509FF1930AD8900E605FD /* backgroundv3b.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A509FC1930AD8900E605FD /* backgroundv3b.png */; };
+		78A50A001930AD8900E605FD /* button7.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A509FD1930AD8900E605FD /* button7.png */; };
+		78A50A011930AD8900E605FD /* creditlogov3b.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A509FE1930AD8900E605FD /* creditlogov3b.png */; };
+		7B19D0681A7C36F7001BC5C8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B19D0671A7C36F7001BC5C8 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		78A509D91930AD3E00E605FD /* MyLittkeKaraoke Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyLittkeKaraoke Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510297B81931D1300041AD92 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = "MyLittkeKaraoke Launcher/MainWindowController.h"; sourceTree = "<group>"; };
+		510297B91931D1300041AD92 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindowController.m; path = "MyLittkeKaraoke Launcher/MainWindowController.m"; sourceTree = "<group>"; };
+		510297BB1931D40F0041AD92 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		510297BD1931D5880041AD92 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		510297BE1931D5880041AD92 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78541F4C193213B9002279F1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		78541F4E19321E2F002279F1 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		78A509D91930AD3E00E605FD /* MyLittleKaraoke Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyLittleKaraoke Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A509DC1930AD3E00E605FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		78A509DE1930AD3E00E605FD /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		78A509E11930AD3E00E605FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		78A509E21930AD3E00E605FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		78A509E31930AD3E00E605FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78A509E61930AD3E00E605FD /* MyLittkeKaraoke Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLittkeKaraoke Launcher-Info.plist"; sourceTree = "<group>"; };
+		78A509E61930AD3E00E605FD /* MyLittleKaraoke Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLittleKaraoke Launcher-Info.plist"; sourceTree = "<group>"; };
 		78A509E81930AD3E00E605FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78A509EA1930AD3E00E605FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78A509EC1930AD3E00E605FD /* MyLittkeKaraoke Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLittkeKaraoke Launcher-Prefix.pch"; sourceTree = "<group>"; };
-		78A509EE1930AD3E00E605FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		78A509F01930AD3E00E605FD /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
-		78A509F31930AD3E00E605FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		78A509F51930AD3E00E605FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78A509EC1930AD3E00E605FD /* MyLittleKaraoke Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLittleKaraoke Launcher-Prefix.pch"; sourceTree = "<group>"; };
+		78A509FC1930AD8900E605FD /* backgroundv3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundv3b.png; path = ../backgroundv3b.png; sourceTree = "<group>"; };
+		78A509FD1930AD8900E605FD /* button7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button7.png; path = ../button7.png; sourceTree = "<group>"; };
+		78A509FE1930AD8900E605FD /* creditlogov3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = creditlogov3b.png; path = ../creditlogov3b.png; sourceTree = "<group>"; };
+		78A8DB511932788E00D9B0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7B19D0671A7C36F7001BC5C8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B19D0681A7C36F7001BC5C8 /* WebKit.framework in Frameworks */,
 				78A509DF1930AD3E00E605FD /* AppleScriptObjC.framework in Frameworks */,
 				78A509DD1930AD3E00E605FD /* Cocoa.framework in Frameworks */,
 			);
@@ -50,7 +65,10 @@
 		78A509D01930AD3D00E605FD = {
 			isa = PBXGroup;
 			children = (
-				78A509E41930AD3E00E605FD /* MyLittkeKaraoke Launcher */,
+				78541F4E19321E2F002279F1 /* AppIcon.icns */,
+				510297B81931D1300041AD92 /* MainWindowController.h */,
+				510297B91931D1300041AD92 /* MainWindowController.m */,
+				78A509E41930AD3E00E605FD /* MyLittleKaraoke Launcher */,
 				78A509DB1930AD3E00E605FD /* Frameworks */,
 				78A509DA1930AD3E00E605FD /* Products */,
 			);
@@ -59,7 +77,7 @@
 		78A509DA1930AD3E00E605FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78A509D91930AD3E00E605FD /* MyLittkeKaraoke Launcher.app */,
+				78A509D91930AD3E00E605FD /* MyLittleKaraoke Launcher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +85,7 @@
 		78A509DB1930AD3E00E605FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B19D0671A7C36F7001BC5C8 /* WebKit.framework */,
 				78A509DC1930AD3E00E605FD /* Cocoa.framework */,
 				78A509DE1930AD3E00E605FD /* AppleScriptObjC.framework */,
 				78A509E01930AD3E00E605FD /* Other Frameworks */,
@@ -84,25 +103,30 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		78A509E41930AD3E00E605FD /* MyLittkeKaraoke Launcher */ = {
+		78A509E41930AD3E00E605FD /* MyLittleKaraoke Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				78A509F01930AD3E00E605FD /* AppDelegate.applescript */,
+				78A509FC1930AD8900E605FD /* backgroundv3b.png */,
+				78A509FD1930AD8900E605FD /* button7.png */,
+				78A509FE1930AD8900E605FD /* creditlogov3b.png */,
+				78541F4C193213B9002279F1 /* logo.png */,
 				78A509F21930AD3E00E605FD /* MainMenu.xib */,
-				78A509F51930AD3E00E605FD /* Images.xcassets */,
 				78A509E51930AD3E00E605FD /* Supporting Files */,
+				510297BB1931D40F0041AD92 /* MainWindow.xib */,
+				510297BD1931D5880041AD92 /* AppDelegate.h */,
+				510297BE1931D5880041AD92 /* AppDelegate.m */,
 			);
+			name = "MyLittleKaraoke Launcher";
 			path = "MyLittkeKaraoke Launcher";
 			sourceTree = "<group>";
 		};
 		78A509E51930AD3E00E605FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				78A509E61930AD3E00E605FD /* MyLittkeKaraoke Launcher-Info.plist */,
+				78A509E61930AD3E00E605FD /* MyLittleKaraoke Launcher-Info.plist */,
 				78A509E71930AD3E00E605FD /* InfoPlist.strings */,
 				78A509EA1930AD3E00E605FD /* main.m */,
-				78A509EC1930AD3E00E605FD /* MyLittkeKaraoke Launcher-Prefix.pch */,
-				78A509ED1930AD3E00E605FD /* Credits.rtf */,
+				78A509EC1930AD3E00E605FD /* MyLittleKaraoke Launcher-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78A509D81930AD3D00E605FD /* MyLittkeKaraoke Launcher */ = {
+		78A509D81930AD3D00E605FD /* MyLittleKaraoke Launcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A509F91930AD3E00E605FD /* Build configuration list for PBXNativeTarget "MyLittkeKaraoke Launcher" */;
+			buildConfigurationList = 78A509F91930AD3E00E605FD /* Build configuration list for PBXNativeTarget "MyLittleKaraoke Launcher" */;
 			buildPhases = (
 				78A509D51930AD3D00E605FD /* Sources */,
 				78A509D61930AD3D00E605FD /* Frameworks */,
@@ -122,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = "MyLittkeKaraoke Launcher";
+			name = "MyLittleKaraoke Launcher";
 			productName = "MyLittkeKaraoke Launcher";
-			productReference = 78A509D91930AD3E00E605FD /* MyLittkeKaraoke Launcher.app */;
+			productReference = 78A509D91930AD3E00E605FD /* MyLittleKaraoke Launcher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +160,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = DerpyMuffinsFactory;
 			};
-			buildConfigurationList = 78A509D41930AD3D00E605FD /* Build configuration list for PBXProject "MyLittkeKaraoke Launcher" */;
+			buildConfigurationList = 78A509D41930AD3D00E605FD /* Build configuration list for PBXProject "MyLittleKaraoke Launcher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78A509D81930AD3D00E605FD /* MyLittkeKaraoke Launcher */,
+				78A509D81930AD3D00E605FD /* MyLittleKaraoke Launcher */,
 			);
 		};
 /* End PBXProject section */
@@ -159,10 +183,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510297BC1931D40F0041AD92 /* MainWindow.xib in Resources */,
+				78A509FF1930AD8900E605FD /* backgroundv3b.png in Resources */,
+				78541F4F19321E2F002279F1 /* AppIcon.icns in Resources */,
+				78541F4D193213B9002279F1 /* logo.png in Resources */,
 				78A509E91930AD3E00E605FD /* InfoPlist.strings in Resources */,
-				78A509F61930AD3E00E605FD /* Images.xcassets in Resources */,
-				78A509EF1930AD3E00E605FD /* Credits.rtf in Resources */,
 				78A509F41930AD3E00E605FD /* MainMenu.xib in Resources */,
+				78A50A001930AD8900E605FD /* button7.png in Resources */,
+				78A50A011930AD8900E605FD /* creditlogov3b.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +201,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A509F11930AD3E00E605FD /* AppDelegate.applescript in Sources */,
+				510297BA1931D1300041AD92 /* MainWindowController.m in Sources */,
 				78A509EB1930AD3E00E605FD /* main.m in Sources */,
+				510297BF1931D5880041AD92 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,18 +218,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		78A509ED1930AD3E00E605FD /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78A509EE1930AD3E00E605FD /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
 		78A509F21930AD3E00E605FD /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				78A509F31930AD3E00E605FD /* Base */,
+				78A8DB511932788E00D9B0C9 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -242,6 +263,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -274,6 +296,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -281,12 +304,15 @@
 		78A509FA1930AD3E00E605FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyLittkeKaraoke Launcher/MyLittkeKaraoke Launcher-Prefix.pch";
-				INFOPLIST_FILE = "MyLittkeKaraoke Launcher/MyLittkeKaraoke Launcher-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyLittkeKaraoke Launcher/MyLittleKaraoke Launcher-Prefix.pch";
+				INFOPLIST_FILE = "MyLittkeKaraoke Launcher/MyLittleKaraoke Launcher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "MyLittleKaraoke Launcher";
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -294,12 +320,15 @@
 		78A509FB1930AD3E00E605FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyLittkeKaraoke Launcher/MyLittkeKaraoke Launcher-Prefix.pch";
-				INFOPLIST_FILE = "MyLittkeKaraoke Launcher/MyLittkeKaraoke Launcher-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyLittkeKaraoke Launcher/MyLittleKaraoke Launcher-Prefix.pch";
+				INFOPLIST_FILE = "MyLittkeKaraoke Launcher/MyLittleKaraoke Launcher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "MyLittleKaraoke Launcher";
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -307,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78A509D41930AD3D00E605FD /* Build configuration list for PBXProject "MyLittkeKaraoke Launcher" */ = {
+		78A509D41930AD3D00E605FD /* Build configuration list for PBXProject "MyLittleKaraoke Launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A509F71930AD3E00E605FD /* Debug */,
@@ -316,13 +345,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A509F91930AD3E00E605FD /* Build configuration list for PBXNativeTarget "MyLittkeKaraoke Launcher" */ = {
+		78A509F91930AD3E00E605FD /* Build configuration list for PBXNativeTarget "MyLittleKaraoke Launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A509FA1930AD3E00E605FD /* Debug */,
 				78A509FB1930AD3E00E605FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
